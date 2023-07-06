@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.layer{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    width: 65vw;
+    margin: 3vh auto;
+    border-radius: 25px;
+}
+
+.container{
+    height: 80vh;
+    width: 55vw;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+header{
+    margin-top: 8vh;
+}
+
+header img{
+    display: flex;
+    margin: auto;
+    width: 15vw;
+}
+
+header span{
+    color: #39FF32;
+    display: flex;
+    justify-content: center;
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+}
+
+nav{
+    background-color: #39FF32;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+nav button{
+    margin-right: 8px;
+    padding: 3px 6px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section{
+    margin-top: 3vh;
+}
+
+.section span{
+    font-size: 20px;
+}
+
+.section input{
+    margin-right: 5px;
+}
+
+.nome{
+    color: white;
+    margin-top: 2vh;
+}
+
+.info{
+    color: #a1a1a1;
+}
+
+.caricaGino{
+    background-color: #ffc100;
+    height: 25px;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.caricaMike{
+    background-color: #50C878;
+    height: 25px;
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.caricaFede{
+    background-color: #ff5252;
+    height: 25px;
+    width: 6vw;
+    border-radius: 5px;
+}
